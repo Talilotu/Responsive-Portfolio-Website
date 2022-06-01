@@ -73,6 +73,9 @@ h2 {
   font-size: 64px !important;
   margin-top: 80px !important;
 }
+.weather-h2 {
+  margin-top: 0px !important;
+}
 
 p {
   font-family: var(--secondary-font) !important;
