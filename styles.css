@@ -8,7 +8,7 @@
 body {
   background: #069a8e !important;
 }
-.home-top-contents {
+.top-contents {
   text-align: center;
   padding: 160px 20px;
   background: #a1e3d8;
@@ -92,4 +92,15 @@ p {
 
 video {
   border-radius: 4px;
+}
+
+.about p {
+  padding: 20px 220px;
+}
+.about-section {
+  background: var(--second-color);
+}
+.about-heading {
+  display: flex;
+  flex-direction: row;
 }
