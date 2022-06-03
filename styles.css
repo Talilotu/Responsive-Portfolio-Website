@@ -13,7 +13,7 @@ body {
   padding: 160px 20px;
   background: #a1e3d8;
 }
-.about-top-contents {
+.work-top-contents {
   text-align: center;
   padding: 50px 20px;
   background: #a1e3d8;
@@ -133,4 +133,8 @@ h4 {
 }
 .work-description {
   margin-top: 100px !important;
+}
+
+.work-page img {
+  border-radius: 10px !important;
 }
