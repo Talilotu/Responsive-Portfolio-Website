@@ -17,6 +17,8 @@ body {
   text-align: center;
   padding: 50px 20px;
   background: #a1e3d8;
+  display: flex;
+  justify-content: center;
 }
 h1 {
   font-size: 96px !important;
