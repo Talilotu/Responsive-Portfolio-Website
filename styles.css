@@ -13,6 +13,11 @@ body {
   padding: 160px 20px;
   background: #a1e3d8;
 }
+.about-top-contents {
+  text-align: center;
+  padding: 50px 20px;
+  background: #a1e3d8;
+}
 h1 {
   font-size: 96px !important;
   line-height: 128px;
