@@ -57,7 +57,7 @@ nav li.active a {
   background: #a1e3d8;
 }
 
-.top-contents .work-top-contents {
+.work-top-contents {
   text-align: center;
   padding: 50px 20px;
   background: #a1e3d8;
@@ -131,11 +131,17 @@ a:hover {
 }
 
 h2,
-.heading {
+.contact h1 {
   font-family: var(--heading-font);
   font-size: 64px !important;
   margin-top: 80px !important;
 }
+
+.contact h1 {
+  margin: 0 !important;
+  text-align: center;
+}
+
 .weather-h2 {
   margin-top: 0px !important;
 }
@@ -186,7 +192,15 @@ h4 {
 }
 
 .contact {
-  padding: 160px 100px;
+  padding: 80px 80px;
+  background: var(--second-color);
+}
+
+.contact-form {
+  max-width: 700px !important;
+  border: 2px solid var(--primary-color);
+  padding: 30px !important;
+  margin-top: 50px;
 }
 
 footer {
