@@ -160,6 +160,10 @@ video {
   display: flex;
   flex-direction: row;
 }
+.about img {
+  border-radius: 50%;
+}
+
 h4 {
   font-size: var(--secondary-font) !important;
   font-size: 50px !important;
