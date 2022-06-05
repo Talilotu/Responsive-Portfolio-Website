@@ -86,7 +86,8 @@ a:hover {
   font-weight: normal !important;
 }
 
-h2 {
+h2,
+.heading {
   font-family: var(--heading-font);
   font-size: 64px !important;
   margin-top: 80px !important;
@@ -137,4 +138,8 @@ h4 {
 
 .work-page img {
   border-radius: 10px !important;
+}
+
+.contact {
+  padding: 160px 100px;
 }
