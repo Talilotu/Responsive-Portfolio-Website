@@ -184,3 +184,33 @@ h4 {
 .contact {
   padding: 160px 100px;
 }
+
+footer {
+  padding: 50px !important;
+  text-align: center;
+}
+
+.email-link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 24px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+footer .email-link:hover {
+  color: var(--second-color) !important;
+}
+footer .social-links a {
+  font-size: 30px;
+  margin: 0 20px;
+  color: var(--second-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  background: var(--second-color);
+}
