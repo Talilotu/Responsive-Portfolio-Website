@@ -190,6 +190,16 @@ footer {
   text-align: center;
 }
 
+footer .contact-box {
+  background: var(--second-color);
+  opacity: 0.8;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer h4 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+}
 .email-link {
   text-decoration: none;
   color: #000000;
