@@ -181,7 +181,7 @@ h4 {
 .work-page {
   padding: 0 140px !important;
 }
-.work-description {
+.work-page h4 {
   margin-top: 100px !important;
 }
 
@@ -280,7 +280,8 @@ footer .social-links a:hover {
   video {
     max-width: 350px;
   }
-  .learn-more-button {
+  .learn-more-button,
+  .launch-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -302,5 +303,13 @@ footer .social-links a:hover {
   }
   .shecodes {
     margin-top: 25px !important;
+  }
+  .work-page {
+    padding: 0px 5px !important;
+  }
+  .work-page h4 {
+    margin-top: 20px !important;
+    text-align: center;
+    font-size: 40px !important;
   }
 }
