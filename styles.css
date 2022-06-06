@@ -250,6 +250,9 @@ footer .social-links a:hover {
   nav {
     padding: 5px 30px !important;
   }
+  nav li {
+    font-size: 20px;
+  }
   h1 {
     font-size: 54px !important;
   }
