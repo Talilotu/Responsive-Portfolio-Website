@@ -274,8 +274,12 @@ footer .social-links a:hover {
   }
 
   video {
-    max-width: 300px;
+    max-width: 350px;
   }
   .learn-more-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 130px;
   }
 }
