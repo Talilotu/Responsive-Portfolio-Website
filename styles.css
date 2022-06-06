@@ -329,4 +329,7 @@ footer .open-source-link:hover {
     text-align: center;
     font-size: 40px !important;
   }
+  .contact {
+    padding: 30px 15px !important;
+  }
 }
