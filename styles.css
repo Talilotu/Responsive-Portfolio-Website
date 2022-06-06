@@ -271,7 +271,9 @@ footer .open-source-link:hover {
   h3 {
     font-size: 20px !important;
   }
-
+  h4 {
+    font-size: 40px !important;
+  }
   p {
     text-align: center;
   }
@@ -279,7 +281,7 @@ footer .open-source-link:hover {
     padding-right: 0px;
   }
   .top-contents {
-    padding: 50px 0px;
+    padding: 50px 5px !important;
     margin-bottom: -20px !important;
   }
   .featured-projects {
@@ -295,11 +297,11 @@ footer .open-source-link:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 30px 130px;
+    margin: 30px 60px;
   }
 
   footer .contact-box {
-    padding: 30px 60px;
+    padding: 30px 10px;
   }
 
   .about-top-contents {
