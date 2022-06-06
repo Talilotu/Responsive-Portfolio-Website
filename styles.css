@@ -283,7 +283,7 @@ footer .open-source-link:hover {
     padding-right: 0px;
   }
   .top-contents {
-    padding: 50px;
+    padding: 50px 0px;
     margin-bottom: -20px !important;
   }
   .featured-projects {
