@@ -247,6 +247,9 @@ footer .social-links a:hover {
 }
 
 @media (max-width: 767.98px) {
+  nav {
+    padding: 5px 30px !important;
+  }
   h1 {
     font-size: 54px !important;
   }
@@ -262,8 +265,11 @@ footer .social-links a:hover {
   p {
     text-align: center;
   }
+  body {
+    padding-right: 0px;
+  }
   .top-contents {
-    padding: 50px 20px;
+    padding: 50px 0px;
     margin-bottom: -20px !important;
   }
   .featured-projects {
@@ -279,5 +285,9 @@ footer .social-links a:hover {
     align-items: center;
     justify-content: center;
     margin: 30px 130px;
+  }
+
+  footer .contact-box {
+    padding: 30px 60px;
   }
 }
