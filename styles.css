@@ -117,9 +117,13 @@ a:hover {
   border: none;
   border-radius: 4px !important;
   text-decoration: none;
-  color: var(--primary-color);
+  color: #000000;
   text-align: center;
   background: var(--second-color);
+}
+
+.launch-button:hover {
+  color: #069a8e !important;
 }
 
 .featured-projects {
