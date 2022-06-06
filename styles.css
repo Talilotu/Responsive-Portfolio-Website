@@ -42,9 +42,6 @@ nav li.active a {
   color: var(--second-color) !important;
 }
 
-nav li.active a {
-}
-
 .top-contents {
   text-align: center;
   padding: 160px 20px;
@@ -103,6 +100,7 @@ a:hover {
 
 .learn-more-button {
   display: inline-block;
+  margin-top: 48px;
   padding: 15px 35px;
   border: 2px solid var(--second-color);
   border-radius: 4px !important;
@@ -159,7 +157,7 @@ p {
 
 .section-border {
   border: 5px solid var(--second-color);
-  padding: 20px 0px;
+  padding: 10px 0px !important;
   border-radius: 5px;
 }
 
@@ -255,8 +253,16 @@ footer .social-links a:hover {
   h1 {
     font-size: 54px !important;
   }
+  h2 {
+    font-size: 44px !important;
+    text-align: center;
+    margin-top: 30px !important;
+  }
   h3 {
     font-size: 20px !important;
+  }
+  p {
+    text-align: center;
   }
   .top-contents {
     padding: 50px 20px;
@@ -265,5 +271,11 @@ footer .social-links a:hover {
   .featured-projects {
     font-size: 30px;
     margin: -20px !important;
+  }
+
+  video {
+    max-width: 300px;
+  }
+  .learn-more-button {
   }
 }
