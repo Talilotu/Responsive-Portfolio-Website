@@ -169,11 +169,9 @@ video {
 .about-section {
   background: var(--second-color);
 }
-.about-heading {
-  display: flex;
-  flex-direction: row;
+.certificates {
+  font-size: 22px !important;
 }
-
 h4 {
   font-size: var(--secondary-font) !important;
   font-size: 50px !important;
@@ -295,5 +293,14 @@ footer .social-links a:hover {
 
   .about-top-contents {
     padding: 30px 20px;
+  }
+  .my-photo {
+    margin-top: 15px !important;
+  }
+  .about p {
+    padding: 0;
+  }
+  .shecodes {
+    margin-top: 25px !important;
   }
 }
