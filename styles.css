@@ -250,3 +250,20 @@ footer .social-links a {
 footer .social-links a:hover {
   background: var(--second-color);
 }
+
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 54px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
+  .top-contents {
+    padding: 50px 20px;
+    margin-bottom: -20px !important;
+  }
+  .featured-projects {
+    font-size: 30px;
+    margin: -20px !important;
+  }
+}
