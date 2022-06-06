@@ -184,7 +184,9 @@ h4 {
 .work-page h4 {
   margin-top: 100px !important;
 }
-
+.work-page .weather-app-heading {
+  margin-top: 30px !important;
+}
 .work-page img {
   border-radius: 10px !important;
 }
