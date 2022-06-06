@@ -255,9 +255,11 @@ footer .open-source-link:hover {
 
 @media (max-width: 767.98px) {
   nav {
-    padding: 10px 30px !important;
+    padding: 10px 15px !important;
   }
-
+  nav li {
+    font-size: 18px;
+  }
   h1 {
     font-size: 54px !important;
   }
