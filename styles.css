@@ -249,11 +249,9 @@ footer .social-links a:hover {
 
 @media (max-width: 767.98px) {
   nav {
-    padding: 5px 30px !important;
+    padding: 10px 30px !important;
   }
-  nav li {
-    font-size: 20px;
-  }
+
   h1 {
     font-size: 54px !important;
   }
@@ -293,5 +291,9 @@ footer .social-links a:hover {
 
   footer .contact-box {
     padding: 30px 60px;
+  }
+
+  .about-top-contents {
+    padding: 30px 20px;
   }
 }
