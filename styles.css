@@ -303,6 +303,9 @@ footer .open-source-link:hover {
     width: 40px;
     margin-top: 30px;
   }
+  .api-logo {
+    width: 50px;
+  }
   small {
     display: block;
   }
