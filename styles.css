@@ -77,6 +77,9 @@ h3 {
   line-height: 36px;
   font-weight: bold !important;
 }
+.featured {
+  margin-top: 80px;
+}
 small {
   font-weight: bold;
 }
@@ -288,9 +291,9 @@ footer .open-source-link:hover {
     padding: 50px 0px;
     margin-bottom: -20px !important;
   }
-  .featured-projects {
-    font-size: 30px;
-    margin: -20px !important;
+  .logos {
+    width: 40px;
+    margin-top: 30px;
   }
 
   video {
