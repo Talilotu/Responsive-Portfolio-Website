@@ -215,13 +215,6 @@ h4 {
   background: var(--second-color);
 }
 
-.contact-form {
-  max-width: 700px !important;
-  border: 2px solid var(--primary-color);
-  padding: 30px !important;
-  margin-top: 50px;
-}
-
 .contact-details {
   margin: 0 60px;
 }
@@ -361,5 +354,9 @@ footer .open-source-link:hover {
   }
   .contact {
     padding: 30px 15px !important;
+  }
+  .contact-details {
+    margin: 10px;
+    text-align: center;
   }
 }
