@@ -46,7 +46,7 @@ nav li.active a {
   background: #a1e3d8;
 }
 
-.about-top-contents {
+.about-contents {
   text-align: center;
   padding: 80px 20px;
   background: #a1e3d8;
@@ -89,7 +89,7 @@ a:hover {
 }
 .contact-box a,
 .homepage-contact,
-.about .button,
+.about-contents .button,
 .send-button {
   display: inline-block;
   margin-top: 30px;
@@ -180,12 +180,13 @@ video {
   font-size: 20px;
   font-weight: 500;
 }
-.about p {
+.about-contents p {
   padding: 20px 220px;
 }
-.about-section {
+.about-contents {
   background: var(--second-color);
 }
+
 .certificate-link {
   font-size: 22px !important;
 }
@@ -330,13 +331,11 @@ footer .open-source-link:hover {
     padding: 30px 10px;
   }
 
-  .about-top-contents {
+  .about-contents {
     padding: 30px 20px;
   }
-  .my-photo {
-    margin-top: 15px !important;
-  }
-  .about p {
+
+  .about-contents p {
     padding: 0;
   }
   .shecodes {
