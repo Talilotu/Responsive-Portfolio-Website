@@ -87,7 +87,8 @@ a:hover {
   color: black !important;
   transition: ease-in-out;
 }
-.button {
+.contact-box a,
+.homepage-contact {
   display: inline-block;
   margin-top: 30px;
   background: var(--primary-color);
@@ -121,6 +122,7 @@ a:hover {
   color: #000000;
   text-align: center;
   background: var(--second-color);
+  font-size: 20px;
 }
 
 .launch-button:hover {
@@ -130,7 +132,7 @@ a:hover {
 .homepage-heading {
   text-align: center;
   font-family: var(--heading-font);
-  font-size: 40px;
+  font-size: 50px;
   line-height: 28px;
   font-weight: normal !important;
 }
@@ -152,6 +154,7 @@ h2,
 }
 .homepage .learn-more-button {
   margin-top: 5px;
+  font-size: 20px;
 }
 
 p {
@@ -164,12 +167,14 @@ p {
 .section-border img,
 video {
   border-radius: 5px;
+}
+.responsive-photo {
   padding: 5px;
   background: #ffffff;
 }
-.see-other-projects {
+.see-all-projects {
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 100px !important;
   font-size: 20px;
   font-weight: 500;
 }
@@ -189,14 +194,16 @@ h4 {
   font-weight: bold !important;
 }
 .work-page {
-  padding: 0 140px !important;
+  text-align: center;
 }
 .work-page h4 {
-  margin-top: 100px;
+  font-size: 30px !important;
+  margin-top: 30px;
 }
-.work-page .weather-app-heading {
-  margin-top: 30px !important;
+.work-page p {
+  margin-top: 20px;
 }
+
 .work-page img {
   border-radius: 10px !important;
 }
